@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 # Leer los datos del archivo CSV
 ruta_csv = Path(
     'C:/Users/Usuario/OneDrive/Desktop/TripleTen/APPs/Sprint7_LAST') / 'vehicles_us_mod.csv'
-vehicles_us = pd.read_csv(ruta_csv)
+vehicles_us = pd.read_csv('vehicles_us_mod.csv')
 
 # Crear un botón en la aplicación Streamlit
 hist_button = st.button('Construir histograma')
